@@ -4,6 +4,7 @@
   "description": "A script for create-react-app that writes development builds to the disk",
   "main": "scripts/index.js",
   "bin": "bin/cra-build-watch.js",
+  "private": true,
   "files": [
     "bin",
     "scripts",
@@ -41,13 +42,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nargonath/cra-build-watch.git"
+    "url": "https://github.com/JohnSpindler/cra-build-watch.git"
   },
   "bugs": {
-    "url": "https://github.com/Nargonath/cra-build-watch/issues"
+    "url": "https://github.com/JohnSpindler/cra-build-watch/issues"
   },
-  "homepage": "https://github.com/Nargonath/cra-build-watch#readme",
-  "author": "Nargonath <jonas.pauthier@gmail.com>",
+  "homepage": "https://github.com/JohnSpindler/cra-build-watch#readme",
+  "author": "JohnSpindler <jspindler001@gmail.com>",
   "keywords": [
     "create-react-app",
     "react",
