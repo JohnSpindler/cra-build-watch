@@ -50,6 +50,11 @@ const spinner = ora('Update webpack configuration').start();
 const env = getClientEnvironment(process.env.PUBLIC_URL || ''); // eslint-disable-line no-process-env
 
 /**
+ * Inlining the sourcemaps help chrome resolve the sources during development
+ */
+config.devtool = 'inline-source-map';
+
+/**
  * We need to update the webpack dev config in order to remove the use of webpack devserver
  */
 config.entry = config.entry.filter(fileName => !fileName.match(/webpackHotDevClient/));
