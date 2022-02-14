@@ -1,3 +1,10 @@
+### **Forked from https://github.com/Nargonath/cra-build-watch**
+
+#### changes:
+* updates the `devtool` in the webpack config to `inline-source-map` to allow sourcemaps in browser extensions.
+
+---
+
 <div align="center">
   <h1>cra-build-watch</h1>
   <strong>A script for create-react-app that writes development builds to the disk</strong>
